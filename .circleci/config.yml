@@ -37,7 +37,7 @@ jobs:
             - ./vendor
           key: v1-dependencies-{{ checksum "composer.json" }}
       # run seeding
-      - run: php artisan migrate
+      - run: php artisan migrate --force
       - run: php artisan db:seed
       # run test
 
