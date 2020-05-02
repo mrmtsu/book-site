@@ -1,0 +1,3 @@
+global:
+  application_name: book-site
+  default_region: ap-northeast-1
